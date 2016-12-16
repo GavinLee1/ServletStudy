@@ -11,14 +11,14 @@
      Welcome to Servlet Study
   </description>
   
-  <servlet>  
-  	<servlet-name>LoginServlet</servlet-name>
-  	<servlet-class>com.gavin.servlet.login.loginServlet</servlet-class>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.gavin.servlet.login.loginServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
-  	<servlet-name>LoginServlet</servlet-name>
-  	<url-pattern>/loginServlet</url-pattern>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
   </servlet-mapping>
 
 </web-app>
